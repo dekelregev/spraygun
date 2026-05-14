@@ -144,7 +144,7 @@ section { position: relative; }
   gap: 64px;
   white-space: nowrap;
   padding-block: 10px;
-  animation: scroll 40s linear infinite;
+  animation: scroll 80s linear infinite;
   width: max-content;
 }
 .topstrip-track span { display: inline-flex; align-items: center; gap: 12px; }
@@ -152,7 +152,7 @@ section { position: relative; }
 
 @keyframes scroll {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(100%); }
 }
 
 /* ============================================================
