@@ -34,18 +34,20 @@
 <div class="topstrip" aria-hidden="true">
   <div class="topstrip-track">
     ${Array(2).fill(`
-      <span>Family owned for 20+ years</span>
-      <span class="star">★</span>
-      <span>All insurance accepted</span>
-      <span class="star">★</span>
-      <span>Free pickup &amp; delivery</span>
-      <span class="star">★</span>
-      <span>65 ft spray booth</span>
-      <span class="star">★</span>
-      <span>Military discount</span>
-      <span class="star">★</span>
-      <span>Mon–Fri 7:30 AM – 5:00 PM</span>
-      <span class="star">★</span>
+      <div class="topstrip-set">
+        <span>Family owned for 20+ years</span>
+        <span class="star">★</span>
+        <span>All insurance accepted</span>
+        <span class="star">★</span>
+        <span>Free pickup &amp; delivery</span>
+        <span class="star">★</span>
+        <span>65 ft spray booth</span>
+        <span class="star">★</span>
+        <span>Military discount</span>
+        <span class="star">★</span>
+        <span>Mon–Fri 7:30 AM – 5:00 PM</span>
+        <span class="star">★</span>
+      </div>
     `).join("")}
   </div>
 </div>
